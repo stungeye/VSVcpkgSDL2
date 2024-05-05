@@ -1,0 +1,1 @@
+# VcpkgSDL2
