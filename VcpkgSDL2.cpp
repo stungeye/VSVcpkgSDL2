@@ -97,7 +97,8 @@ int CALLBACK WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance,
 		SDL_RenderPresent(renderer);
 
 		if (constrainFPS) {
-			// Sleep for 4ms to cap the frame rate at 250 FPS-ish
+			// Sleep for 4ms. When combined with above work this will
+			// cap the frame rate to around 200 FPS.
 			SDL_Delay(4);
 		}
 	}
