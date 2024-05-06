@@ -1,4 +1,4 @@
-# SDL2 Moving Rectangle Example for Windows and Visual Studio
+# SDL2 Moving Rectangle for Windows
 
 Written by Kyle Geske ([stungeye.com](https://stungeye.com)) - UNLICENSE 2024 ([unlicense.org](https://unlicense.org))
 
