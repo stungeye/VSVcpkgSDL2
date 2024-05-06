@@ -4,7 +4,7 @@ Written by Kyle Geske ([stungeye.com](https://stungeye.com)) - UNLICENSE 2024 ([
 
 ## Description
 
-This program demonstrates the basics of using SDL2 to create a graphical application in a Windows environment. It creates a resizable window and a renderer, and uses these to display and move a colored sqaure across thescreen. The squares's movement is governed by its velocity and it bouncesoff the edges of the window. The color of the square changes if the user presses a key or clicks the mouse.
+This program demonstrates the basics of using SDL2 to create a graphical application in a Windows environment. It creates a resizable window and a renderer, and uses these to display and move a colored sqaure across the screen. The squares's movement is governed by its velocity and it bounces off the edges of the window. The color of the square changes if the user presses a key or clicks the mouse.
 
 ## Key Features
 
