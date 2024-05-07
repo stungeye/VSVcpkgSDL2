@@ -38,11 +38,11 @@
  * How to Run:
  * - Clone the repository that contains this project.
  * - Ensure that you have Visual Studio 2022 version 17.6 or later installed.
- * - Open the project by double-clicking the VcpkgSDL2.sln file.
+ * - Open the project in Visual Studio by double-clicking: VcpkgSDL2.sln
  * - Open a command prompt using the View => Terminal menu option.
  * - Run the following command to integrate vcpkg with Visual Studio:
  *     vcpkg integrate install
- * - Build the project by pressing Ctrl+Shift+B or selecting Build => Build All.
+ * - Build the project using Ctrl+Shift+B or selecting Build => Build Solution
  * - Press F5 to run the project in the debugger.
  */
 
