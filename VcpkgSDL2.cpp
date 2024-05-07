@@ -34,7 +34,16 @@
  * - Visual Studio 2022 Community Edition: Free C++ development environment 
  *   with a compiler and build system that support vcpkg installed libraries.
  *   https://visualstudio.microsoft.com/vs/community/
- *
+ * 
+ * How to Run:
+ * - Clone the repository that contains this project.
+ * - Ensure that you have Visual Studio 2022 version 17.6 or later installed.
+ * - Open the project by double-clicking the VcpkgSDL2.sln file.
+ * - Open a command prompt using the View => Terminal menu option.
+ * - Run the following command to integrate vcpkg with Visual Studio:
+ *     vcpkg integrate install
+ * - Build the project by pressing Ctrl+Shift+B or selecting Build => Build All.
+ * - Press F5 to run the project in the debugger.
  */
 
 #include "SDL2/SDL.h" // Include the SDL2 library header file.
