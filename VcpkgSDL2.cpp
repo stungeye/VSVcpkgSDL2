@@ -53,7 +53,6 @@
  */
 
 #include "SDL2/SDL.h" // Include the SDL2 library header file.
-#include <windows.h>  // Included for the WinMain(...) entry point.
 #include <algorithm>  // Inluded for std::clamp for the square's boundary check.
 #include "util.h"     // Included for randomInt(...) function. (See util.cpp)
 
