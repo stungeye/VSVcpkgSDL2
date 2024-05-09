@@ -11,6 +11,12 @@
  * off the edges of the window. The color of the square changes if the user
  * presses a key or clicks the mouse.
  *
+ * For debugguing purposes, you can use the SDL_Log() function to log messages.
+ * If you want to see these message in a console window, you will need to 
+ * change the SubSystem from Windows to Console in the project properties:
+ * 
+ * Project Menu -> Properties -> Linker -> System -> SubSystem
+ *
  * Key Features:
  * - Window creation and management using SDL2.
  * - Real-time rendering of graphical elements with SDL2, including handling 
@@ -55,13 +61,8 @@
 const int screenWidth = 1280;
 const int screenHeight = 720;
 
-// I started this project as a console app, so to use WinMain() instead of
-// main() I needed to change: Properties -> Linker -> System -> SubSystem 
-// from Console(/SUBSYSTEM:CONSOLE) to Windows(/SUBSYSTEM:WINDOWS)
-
-// WinMain: the main entry point for Windows applications.
-int CALLBACK WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _In_ LPSTR lpCmdLine, _In_ int nCmdShow) {
-	// Initialize the SDL video subsystem (returns 0 on success).
+int main(int argc, char* argv[]) {
+// Initialize the SDL video subsystem (returns 0 on success).
 	if (SDL_Init(SDL_INIT_VIDEO)) {
 		// Log an error message if SDL fails to initialize and exit
 		SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Couldn't initialize SDL: %s", SDL_GetError());
