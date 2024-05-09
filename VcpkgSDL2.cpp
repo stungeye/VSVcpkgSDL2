@@ -32,8 +32,6 @@
  *   audio, keyboard, mouse, joystick, and graphics hardware. It is used to 
  *   handle window creation, rendering graphics, and capturing input events.
  *   https://www.libsdl.org
- * - Windows API: Used here to define the WinMain entry point for the Windows
- *   subsystem, allowing the program to run without a separate console window. 
  * - Vcpkg: A C++ dependency manager that simplifies the process of acquiring 
  *   and building 3rd party libraries. Used here to install and link SDL2.
  *   https://vcpkg.io
